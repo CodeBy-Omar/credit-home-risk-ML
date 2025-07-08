@@ -87,7 +87,7 @@ pip install lightgbm xgboost catboost pandas numpy matplotlib seaborn scikit-lea
   <h2 id="data">🗂️ Data</h2>
   <ul>
     <li><b>application_train.csv:</b> Training data with loan application details and target (0: repaid, 1: not repaid)</li>
-    <li><b>application_test.csv:</b> Test data for prediction</li>
+    <li><b>application_test.csv:</b> Test data for prediction (<b>Note: The test set was not used for local model assessment, because its true labels were only available upon submission to Kaggle. Therefore, all model training, validation, and testing were performed using splits of the <code>application_train.csv</code> data. The <code>application_test.csv</code> was preprocessed in the same way as train, to demonstrate the data pipeline and show how predictions would be produced if test labels were accessible for final model evaluation.</b>)</li>
   </ul>
   <p>
     <i>Note: Only the main application files are used in this analysis. Other supplemental files can be integrated for feature enrichment.</i>
@@ -120,9 +120,10 @@ pip install lightgbm xgboost catboost pandas numpy matplotlib seaborn scikit-lea
 
   <h2 id="insights">💡 Insights</h2>
   <ul>
-    <li>Test/train data proportion is balanced</li>
+    <li>Test/train data proportion is not balanced</li>
     <li>Many columns have significant missing data and require careful removal</li>
     <li><b>Target label:</b> 0 = loan repaid, 1 = loan not repaid (important for interpreting results and metrics)</li>
+    <li><b>About test set:</b> The <code>application_test.csv</code> was not used for local validation or model selection, as its ground truth labels are only available upon submission to Kaggle. All model development and evaluation were therefore based on splits of the <code>application_train.csv</code> data. The test set was preprocessed and included in the pipeline to illustrate how the workflow would handle unseen data and to demonstrate the approach for real-world deployment if test labels were accessible for final assessment.</li>
   </ul>
   <hr>
   <p align="center">
