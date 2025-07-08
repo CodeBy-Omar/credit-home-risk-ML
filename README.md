@@ -93,7 +93,7 @@ pip install lightgbm xgboost catboost pandas numpy matplotlib seaborn scikit-lea
 
 - Computes missing value percentages per feature
 - Removes features with excessive missingness (>50%)
-- Special investigation of `AMT_REQ_CREDIT_BUREAU_*` columns
+- Special investigation of some specific columns based on analysis
 - Saves missing value summary to CSV for review
 
 ---
@@ -101,7 +101,7 @@ pip install lightgbm xgboost catboost pandas numpy matplotlib seaborn scikit-lea
 ## 🤖 Modeling
 
 - Handles class imbalance with RandomOverSampler
-- Trains LightGBM, XGBoost, and CatBoost classifiers
+- Trains LightGBM and CatBoost classifiers
 - Model selection via cross-validation and grid search
 - **Threshold Tuning:** Different classification thresholds were tested and a threshold of 0.4 gave the best balance between precision and recall.
 - **Clear Data Addition Process:**
