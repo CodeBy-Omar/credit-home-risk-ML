@@ -43,7 +43,7 @@ This notebook demonstrates:
 - EDA with missing value analysis and visualization
 - Advanced feature selection/removal logic
 - Imbalanced class handling (RandomOverSampler)
-- Training with LightGBM, XGBoost, CatBoost
+- Training with LightGBM, CatBoost
 - Model validation and detailed reporting
 
 ---
