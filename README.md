@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>🏠 Home Credit Default Risk - Machine Learning Solution</title>
 </head>
 <body>
   <h1 align="center">🏠 Home Credit Default Risk - Machine Learning Solution</h1>
