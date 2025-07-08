@@ -23,8 +23,6 @@
     <li><a href="#modeling">Modeling</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#insights">Insights</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
   </ul>
 
   <h2 id="overview">📖 Project Overview</h2>
@@ -126,16 +124,6 @@ pip install lightgbm xgboost catboost pandas numpy matplotlib seaborn scikit-lea
     <li>Many columns have significant missing data and require careful removal</li>
     <li><b>Target label:</b> 0 = loan repaid, 1 = loan not repaid (important for interpreting results and metrics)</li>
   </ul>
-
-  <h2 id="contributing">🤝 Contributing</h2>
-  <p>
-    Contributions are welcome! Please open an issue or pull request for discussion.
-  </p>
-
-  <h2 id="license">📝 License</h2>
-  <p>
-    This project is licensed under the <a href="LICENSE">MIT License</a>.
-  </p>
   <hr>
   <p align="center">
     <i>Author: <a href="https://github.com/CodeBy-Omar">Omar</a></i>
