@@ -55,7 +55,7 @@ This notebook demonstrates:
 - Jupyter Notebook or Google Colab
 - pandas, numpy, matplotlib, seaborn
 - scikit-learn
-- lightgbm, xgboost, catboost
+- lightgbm, catboost
 
 Install dependencies:
 ```sh
