@@ -55,9 +55,8 @@
     <li>Python 3.7+</li>
     <li>Jupyter Notebook or Google Colab</li>
     <li>pandas, numpy, matplotlib, seaborn</li>
-    <li>scikit-learn, imbalanced-learn</li>
+    <li>scikit-learn</li>
     <li>lightgbm, xgboost, catboost</li>
-    <li>plotly, graphviz (optional for visualization)</li>
   </ul>
   Install dependencies:
 </p>
